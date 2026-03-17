@@ -1,0 +1,20 @@
+{
+  "mining": {
+    "algorithm": "sha256",
+    "pool_url": "https://pool.example.com",
+    "pool_port": 3333,
+    "username": "your_username",
+    "password": "your_password"
+  },
+  "hardware": {
+    "use_cpu": true,
+    "use_gpu": false,
+    "cpu_threads": 4,
+    "gpu_device": 0
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "logs/mining.log",
+    "console": true
+  }
+}
